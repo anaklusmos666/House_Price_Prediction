@@ -11,9 +11,7 @@ It is a supervised learning algorithm which uses statistical method to make pred
 
 ## Polynomial Regression <br>
 Basically a linear regression but models relationship between dependent and independent variables as n-th degree polynomial. <br>
-<b>Accuracy:</b> For 2nd Degree: 0.9999995497190701, For 3rd Degree: 0.9999994956324605
-
-<br>
+<b>Accuracy:</b> For 2nd Degree: 0.9999995497190701, For 3rd Degree: 0.9999994956324605<br>
 
 ## Support Vector Regressor <br>
 It is a support vector machine algorithm for regression tasks like this. <br>
@@ -27,8 +25,7 @@ Decision tree algorithm for regression tasks. <br>
 Random Forest algorithm for regression analysis. <br>
 <b>Accuracy:</b> 99.99% (0.9999981046318548) <br>
 
-<br>
 ## Discussion
-<b>Linear regression</b> has shown the best accuracy for this dataset. After the LR model, <b>Random Forest Regressor</b> has shown the highest accuracy among other algorithms. The RF is a powerful algorithm for performing both regression and classification problems. Still LR outperformed RF for this regression problem. Another observation is that, as the degree of of polynomial increases the accuracy decreases and it becomes more and more costly.
+<b>Linear regression</b> has shown the best accuracy for this dataset. After the LR model, <b>Random Forest Regressor</b> has shown the highest accuracy among other algorithms. The RF is a powerful algorithm for performing both regression and classification problems. Still LR outperformed RF for this regression problem. Another observation is that, as the degree of of polynomial increases the accuracy decreases and it becomes more and more costly. <br>
 
 <b>NB:</b> None of these models are optimized. I have used the defaults values that are preset. The <b>data_handle.ipynb</b> is for data preprocessing. I have used the well-known Pandas library for this task. Adter preprocessing I have spilted the dataset into a traing and testing file for making the job easy.
